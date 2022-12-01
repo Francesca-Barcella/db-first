@@ -14,7 +14,7 @@ Table Columns:
 - color | VARCHAR(25) | NULL
 - year | YEAR | NOTULL
 - kms | MEDIUMINT | NOTULL
-- owners-number | BIGINT  | NULL
+- owners-number | TINYINT  | NULL
 - transmission | VARCHAR(20) | NULL
 - fuel-type | VARCHAR(20) | NULL
 - category | VARCHAR(20) | NULL
@@ -22,9 +22,9 @@ Table Columns:
 - power-kw-cv | VARCHAR(20) | NULL
 <!-- displacement = cilindrata -->
 - displacement | VARCHAR(10) | NULL
-- port-numbers | BIGINT | NULL
-- seat-numbers | BIGINT | NULL
+- port-numbers | TINYINT | NULL
+- seat-numbers | TINYINT | NULL
 - certifications-and-warranties | VARCHAR(255) | NULL
 - description | TEXT | NULL
-- incidenti | BIGINT | NULL
-- vote | BIGINT | NULL
+- incidenti | TINYINT | NULL
+- vote | FLOAT (2,1) | NULL
