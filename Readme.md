@@ -6,14 +6,23 @@ Table name:
 cars
 
 Table Columns:
-- id | BIGINT
-- xx |
-- xx |
-- xx |
-- xx |
-- xx |
-- xx |
-- xx |
-- xx |
-- xx |
-- xx |
+- id | 
+- image | 
+- price | 
+- brand | 
+- model | 
+- color |
+- year | 
+- kms | 
+- owners-number | 
+- transmission | 
+- fuel-type | 
+- category | 
+- power-kw-cv | 
+- displacement |
+- port-numbers |
+- seat-numbers |
+- certifications-and-warranties | 
+
+
+<!-- displacement - cilindrata -->
