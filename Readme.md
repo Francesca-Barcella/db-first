@@ -9,6 +9,8 @@ Table Columns:
 - id                            | BIGINT            | PK AI NOTNULL UNIQUE
 - image                         | VARCHAR(255)      | NULL
 - price                         | SMALLINT          | NOTULL
+<!-- price meglio coi decimale perchè magari l'azienda vorrà fare dei calcoli -->
+- price                         | DECIMAL (8,2)     |
 - brand                         | VARCHAR(20)       | NOTULL
 - model                         | VARCHAR(50)       | NOTULL
 - color                         | VARCHAR(25)       | NULL
@@ -28,3 +30,5 @@ Table Columns:
 - description                   | TEXT              | NULL
 - incidenti                     | TINYINT           | NULL
 - vote                          | FLOAT (2,1)       | NULL
+<!-- potrebbe essere utile per decidere se fissare apputamenti o meno, magari non è ancora arrivata in concessionaria -->
+- is_available                  | TINYINT           | default(0)
